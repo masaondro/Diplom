@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/yjZp5ZVhbwLtKkfi8li4BpRxxC6em2qf7DkQZQXPpdl8yoqjvR5DLPyq0+pIPRx1+B9eXdjQxbiC+C8CM/Rew==",
+  "success": true,
+  "projectFilePath": "D:\\Arina\\VKR\\VKR\\VKR.AppServices\\VKR.AppServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arina\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Arina\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+D:\Arina\VKR\VKR\VKR.DataAccess\bin\Debug\net5.0\VKR.DataAccess.deps.json
+D:\Arina\VKR\VKR\VKR.DataAccess\bin\Debug\net5.0\VKR.DataAccess.dll
+D:\Arina\VKR\VKR\VKR.DataAccess\bin\Debug\net5.0\ref\VKR.DataAccess.dll
+D:\Arina\VKR\VKR\VKR.DataAccess\bin\Debug\net5.0\VKR.DataAccess.pdb
+D:\Arina\VKR\VKR\VKR.DataAccess\bin\Debug\net5.0\VKR.Domain.dll
+D:\Arina\VKR\VKR\VKR.DataAccess\bin\Debug\net5.0\VKR.Domain.pdb
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.csproj.AssemblyReference.cache
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.AssemblyInfoInputs.cache
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.AssemblyInfo.cs
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.csproj.CoreCompileInputs.cache
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.csproj.CopyComplete
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.dll
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\ref\VKR.DataAccess.dll
+D:\Arina\VKR\VKR\VKR.DataAccess\obj\Debug\net5.0\VKR.DataAccess.pdb

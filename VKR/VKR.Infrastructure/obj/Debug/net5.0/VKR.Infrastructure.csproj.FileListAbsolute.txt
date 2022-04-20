@@ -1,0 +1,15 @@
+D:\Arina\VKR\VKR\VKR.Infrastructure\bin\Debug\net5.0\VKR.Infrastructure.deps.json
+D:\Arina\VKR\VKR\VKR.Infrastructure\bin\Debug\net5.0\VKR.Infrastructure.dll
+D:\Arina\VKR\VKR\VKR.Infrastructure\bin\Debug\net5.0\ref\VKR.Infrastructure.dll
+D:\Arina\VKR\VKR\VKR.Infrastructure\bin\Debug\net5.0\VKR.Infrastructure.pdb
+D:\Arina\VKR\VKR\VKR.Infrastructure\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Arina\VKR\VKR\VKR.Infrastructure\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.xml
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.csproj.AssemblyReference.cache
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.AssemblyInfoInputs.cache
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.AssemblyInfo.cs
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.csproj.CopyComplete
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.dll
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\ref\VKR.Infrastructure.dll
+D:\Arina\VKR\VKR\VKR.Infrastructure\obj\Debug\net5.0\VKR.Infrastructure.pdb

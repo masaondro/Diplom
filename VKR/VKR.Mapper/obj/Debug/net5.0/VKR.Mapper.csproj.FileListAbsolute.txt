@@ -1,0 +1,17 @@
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\VKR.Mapper.deps.json
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\VKR.Mapper.dll
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\ref\VKR.Mapper.dll
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\VKR.Mapper.pdb
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\VKR.Contracts.dll
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\VKR.Domain.dll
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\VKR.Contracts.pdb
+D:\Arina\VKR\VKR\VKR.Mapper\bin\Debug\net5.0\VKR.Domain.pdb
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.csproj.AssemblyReference.cache
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.AssemblyInfoInputs.cache
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.AssemblyInfo.cs
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.csproj.CoreCompileInputs.cache
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.csproj.CopyComplete
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.dll
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\ref\VKR.Mapper.dll
+D:\Arina\VKR\VKR\VKR.Mapper\obj\Debug\net5.0\VKR.Mapper.pdb

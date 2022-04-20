@@ -1,0 +1,12 @@
+D:\Arina\VKR\VKR\VKR.Domain\bin\Debug\net5.0\VKR.Domain.deps.json
+D:\Arina\VKR\VKR\VKR.Domain\bin\Debug\net5.0\VKR.Domain.dll
+D:\Arina\VKR\VKR\VKR.Domain\bin\Debug\net5.0\ref\VKR.Domain.dll
+D:\Arina\VKR\VKR\VKR.Domain\bin\Debug\net5.0\VKR.Domain.pdb
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\VKR.Domain.csproj.AssemblyReference.cache
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\VKR.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\VKR.Domain.AssemblyInfoInputs.cache
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\VKR.Domain.AssemblyInfo.cs
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\VKR.Domain.csproj.CoreCompileInputs.cache
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\VKR.Domain.dll
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\ref\VKR.Domain.dll
+D:\Arina\VKR\VKR\VKR.Domain\obj\Debug\net5.0\VKR.Domain.pdb

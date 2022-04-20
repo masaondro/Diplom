@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VKR</name>
+    </assembly>
+    <members>
+        <member name="T:VKR.Controllers.CommentController">
+            <summary>
+            Задача
+            </summary>
+        </member>
+        <member name="M:VKR.Controllers.CommentController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.CommentController.Add(VKR.Contracts.Comment.CommentDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.CommentController.Update(VKR.Contracts.Comment.CommentDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.CommentController.Delete(System.Guid)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:VKR.Controllers.MissionController">
+            <summary>
+            Задача
+            </summary>
+        </member>
+        <member name="M:VKR.Controllers.MissionController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.MissionController.Add(VKR.Contracts.Mission.MissionDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.MissionController.Update(VKR.Contracts.Mission.MissionDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.MissionController.Delete(System.Guid)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:VKR.Controllers.SectionController">
+            <summary>
+            Задача
+            </summary>
+        </member>
+        <member name="M:VKR.Controllers.SectionController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.SectionController.Add(VKR.Contracts.Section.SectionDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.SectionController.Update(VKR.Contracts.Section.SectionDto)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.SectionController.Delete(System.Guid)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
