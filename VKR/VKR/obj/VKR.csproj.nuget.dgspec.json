@@ -58,6 +58,18 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "RedLock.net": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
             }
           },
           "imports": [
@@ -107,7 +119,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Arina\\VKR\\VKR\\VKR.Domain\\VKR.Domain.csproj": {
+                "projectPath": "D:\\Arina\\VKR\\VKR\\VKR.Domain\\VKR.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -119,6 +135,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -183,6 +205,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -251,6 +277,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -401,6 +433,81 @@
         }
       }
     },
+    "D:\\Arina\\VKR\\VKR\\VKR.Migrations\\VKR.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Arina\\VKR\\VKR\\VKR.Migrations\\VKR.Migrations.csproj",
+        "projectName": "VKR.Migrations",
+        "projectPath": "D:\\Arina\\VKR\\VKR\\VKR.Migrations\\VKR.Migrations.csproj",
+        "packagesPath": "C:\\Users\\Arina\\.nuget\\packages\\",
+        "outputPath": "D:\\Arina\\VKR\\VKR\\VKR.Migrations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Arina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Arina\\VKR\\VKR\\VKR.DataAccess\\VKR.DataAccess.csproj": {
+                "projectPath": "D:\\Arina\\VKR\\VKR\\VKR.DataAccess\\VKR.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Arina\\VKR\\VKR\\VKR\\VKR.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -444,6 +551,9 @@
               },
               "D:\\Arina\\VKR\\VKR\\VKR.Mapper\\VKR.Mapper.csproj": {
                 "projectPath": "D:\\Arina\\VKR\\VKR\\VKR.Mapper\\VKR.Mapper.csproj"
+              },
+              "D:\\Arina\\VKR\\VKR\\VKR.Migrations\\VKR.Migrations.csproj": {
+                "projectPath": "D:\\Arina\\VKR\\VKR\\VKR.Migrations\\VKR.Migrations.csproj"
               }
             }
           }
@@ -461,6 +571,18 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

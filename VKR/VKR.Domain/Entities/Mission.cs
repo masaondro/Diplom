@@ -24,6 +24,16 @@ namespace VKR.Domain.Entities
         public string TaskText { get; set; }
         
         /// <summary>
+        /// Тест для проверки правильности
+        /// </summary>
+        public string Tests { get; set; }
+        
+        /// <summary>
+        /// Шаблон задачи
+        /// </summary>
+        public string Template { get; set; }
+        
+        /// <summary>
         /// Идентификатор раздела, к которому относится задача
         /// </summary>
         public Guid SectionId { get; set; }
@@ -39,11 +49,6 @@ namespace VKR.Domain.Entities
         public int Score { get; set; }
         
         /// <summary>
-        /// Пользователи, решившие задачу
-        /// </summary>
-        public virtual ICollection<User> User { get; set; }
-        
-        /// <summary>
         /// Раздел, к которому относится задача
         /// </summary>
         public virtual Section Section { get; set; }
@@ -52,5 +57,10 @@ namespace VKR.Domain.Entities
         /// Клмментарии к задаче
         /// </summary>
         public virtual ICollection<Comment> Comment { get; set; }
+        
+        /// <summary>
+        /// Пользователи, решившие задачу
+        /// </summary>
+        public virtual ICollection<UserProfileMission> UserProfileMission { get; set; }
     }
 }

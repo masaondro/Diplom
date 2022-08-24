@@ -1,12 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using VKR.DataAccess.Configuration;
+using VKR.Domain.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace VKR.DataAccess
 {
     /// <summary>
     /// Базовый контекст приложения
     /// </summary>
-    public class BaseDbContext : DbContext
+    public class BaseDbContext : IdentityDbContext<ApplicationUser>
     {
         public BaseDbContext(DbContextOptions options) : base(options)
         {
@@ -21,6 +23,10 @@ namespace VKR.DataAccess
             modelBuilder.ApplyConfiguration(new SectionConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new UserInGroupConfiguration());
+            modelBuilder.ApplyConfiguration(new UserProfileMissionConfiguration());
+            modelBuilder.ApplyConfiguration(new UserProfileSectionConfiguration());
+            
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

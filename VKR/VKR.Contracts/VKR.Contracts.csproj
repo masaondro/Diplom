@@ -6,8 +6,15 @@
 
     <ItemGroup>
       <Folder Include="FriendsGroup" />
-      <Folder Include="User" />
       <Folder Include="UserInGroup" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\VKR.Domain\VKR.Domain.csproj" />
     </ItemGroup>
 
 </Project>

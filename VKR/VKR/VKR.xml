@@ -4,6 +4,30 @@
         <name>VKR</name>
     </assembly>
     <members>
+        <member name="T:VKR.Controllers.AuthenticateController">
+            <summary>
+            Работа с авторизацией и регистрацией пользователя
+            </summary>
+        </member>
+        <member name="M:VKR.Controllers.AuthenticateController.Register(VKR.Contracts.User.RegisterUserDto)">
+            <summary>
+            Регистрация пользоателя
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.AuthenticateController.RegisterAdmin(VKR.Contracts.User.RegisterUserDto)">
+            <summary>
+            Регистрация админа
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.AuthenticateController.Login(VKR.Contracts.User.LoginDto)">
+            <summary>
+            Логирование
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:VKR.Controllers.CommentController">
             <summary>
             Задача
@@ -62,6 +86,20 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:VKR.Controllers.MissionController.FindBySectionId(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="idSection"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.MissionController.FindById(System.Guid)">
+            <summary>
+            Получить миссию по id
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
         <member name="T:VKR.Controllers.SectionController">
             <summary>
             Задача
@@ -69,25 +107,143 @@
         </member>
         <member name="M:VKR.Controllers.SectionController.Get">
             <summary>
-            
+            Получить все секции
             </summary>
             <returns></returns>
         </member>
         <member name="M:VKR.Controllers.SectionController.Add(VKR.Contracts.Section.SectionDto)">
             <summary>
-            
+            Добавление новой секции
             </summary>
             <returns></returns>
         </member>
         <member name="M:VKR.Controllers.SectionController.Update(VKR.Contracts.Section.SectionDto)">
             <summary>
-            
+            Обновить секцию
             </summary>
             <returns></returns>
         </member>
         <member name="M:VKR.Controllers.SectionController.Delete(System.Guid)">
             <summary>
+            Удалить секцию
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:VKR.Controllers.TestController">
+            <summary>
             
+            </summary>
+        </member>
+        <member name="M:VKR.Controllers.TestController.Put(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_script"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VKR.Controllers.UserController">
+            <summary>
+            Пользователи
+            </summary>
+        </member>
+        <member name="M:VKR.Controllers.UserController.#ctor(VKR.AppServices.Services.IUserService)">
+            <summary>
+            Контроллер для работы с пользователем
+            </summary>
+            <param name="userService"></param>
+        </member>
+        <member name="M:VKR.Controllers.UserController.Login(VKR.Contracts.User.LoginDto)">
+            <summary>
+            Вход по логину \ паролю
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserController.Register(VKR.Contracts.User.RegisterUserDto)">
+            <summary>
+            Регистрация пользователя
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserController.ConfirmEmail(VKR.Contracts.User.ConfirmEmailDto)">
+            <summary>
+            Подьверждение email
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserController.CreateModerator(VKR.Contracts.User.CreateModeratorDto)">
+            <summary>
+            Добавить нового модератора
+            </summary>
+        </member>
+        <member name="T:VKR.Controllers.UserProfileController">
+            <summary>
+            Профиль пользователя
+            </summary>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.FindByUserId(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.AddMissionToUserProfile(System.Guid,System.Guid)">
+            <summary>
+            Добавить задачу пользователю
+            </summary>
+            <param name="userProfileId"></param>
+            <param name="missionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.AddSectionToUserProfile(System.Guid,System.Guid)">
+            <summary>
+            Добавить раздел пользователю
+            </summary>
+            <param name="userProfileId"></param>
+            <param name="sectionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.GetAllUserProfileMision(System.Guid)">
+            <summary>
+            Получить все миссии пользователя
+            </summary>
+            <param name="userProfileId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.GetAllUserProfileSection(System.Guid)">
+            <summary>
+            Получить все миссии пользователя
+            </summary>
+            <param name="userProfileId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.CheckUserProfileMission(System.Guid,System.Guid)">
+            <summary>
+            Узнать решил ли пользователь эту задачу
+            </summary>
+            <param name="userProfileId"></param>
+            <param name="missionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.CheckUserProfileSection(System.Guid,System.Guid)">
+            <summary>
+            Узнать решил ли пользователь эту задачу
+            </summary>
+            <param name="userProfileId"></param>
+            <param name="sectionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.GetBestUser">
+            <summary>
+            Узнать решил ли пользователь эту задачу
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VKR.Controllers.UserProfileController.Get">
+            <summary>
+            Получить все секции
             </summary>
             <returns></returns>
         </member>

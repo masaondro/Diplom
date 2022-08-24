@@ -36,7 +36,7 @@ namespace VKR.Domain.Entities
         /// <summary>
         /// Пользователи, прошедшие раздел
         /// </summary>
-        public virtual ICollection<User> User { get; set; }
+        public virtual ICollection<UserProfileSection> UserUserProfileSection { get; set; }
         
     }
 }

@@ -20,7 +20,7 @@ namespace VKR.Domain.Entities
         /// <summary>
         /// Пользователь
         /// </summary>
-        public virtual User User { get; set; }
+        public virtual UserProfile User { get; set; }
         
         /// <summary>
         /// Частный рейтинг

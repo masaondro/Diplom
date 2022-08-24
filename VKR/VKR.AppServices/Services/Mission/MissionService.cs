@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using VKR.Contracts.Mission;
 using VKR.Domain.Entities;
 using VKR.Infrastructure.Repository;
+using Guid = System.Guid;
 
 namespace VKR.AppServices.Services
 {
@@ -32,6 +33,11 @@ namespace VKR.AppServices.Services
 
             return result.Count > 0 ? _mapper.Map<List<MissionDto>>(result) : new List<MissionDto>();
         }
+        
+        public async Task<Mission> GetById(Guid id)
+        {
+            return await _missionRepository.GetByIdAsync(id);
+        }
 
         public Task AddAsync(MissionDto model)
         {
@@ -55,6 +61,15 @@ namespace VKR.AppServices.Services
             }
 
             await _missionRepository.DeleteAsync(post);
+        }
+
+        public async Task<List<MissionDto>> FindBySectionId(Guid sectionId)
+        {
+            var result = await _missionRepository.GetAllFiltered(m =>  m.SectionId == sectionId)
+                .Include(m => m.Comment)
+                .ToListAsync();
+
+            return result.Count > 0 ? _mapper.Map<List<MissionDto>>(result) : new List<MissionDto>();
         }
     }
 }

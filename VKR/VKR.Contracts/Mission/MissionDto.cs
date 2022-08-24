@@ -32,6 +32,16 @@ namespace VKR.Contracts.Mission
         public Guid SectionId { get; set; }
         
         /// <summary>
+        /// Тест для проверки правильности
+        /// </summary>
+        public string Tests { get; set; }
+        
+        /// <summary>
+        /// Шаблон задачи
+        /// </summary>
+        public string Template { get; set; }
+        
+        /// <summary>
         /// Клмментарии к задаче
         /// </summary>
         public List<CommentDto> Comment { get; set; }
