@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
@@ -23,7 +24,7 @@ namespace VKR.AppServices.Services
         /// <inheritdoc />
         public async Task<List<SectionDto>> GetAllPost()
         {
-            var result = await  _sectionRepository.GetAll()
+            var result = await  _sectionRepository.GetAll().OrderBy(s => s.Number)
                 .Include(m => m.Mission)
                 .ToListAsync();
 

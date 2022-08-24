@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Threading.Tasks;
 using VKR.Contracts.Mission;
 using VKR.Domain.Entities;
@@ -37,5 +38,19 @@ namespace VKR.AppServices.Services
         /// <param name="id"></param>
         /// <returns></returns>
         Task DeleteAsync(Guid id);
+        
+        /// <summary>
+        /// Возвращает миссии по id секции
+        /// </summary>
+        /// <param name="sectionId"></param>
+        /// <returns></returns>
+        public Task<List<MissionDto>> FindBySectionId(Guid sectionId);
+
+        /// <summary>
+        /// Возвращает миссию по ее id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Task<Mission> GetById(Guid id);
     }
 }

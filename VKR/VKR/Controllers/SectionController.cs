@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using VKR.AppServices.Services;
@@ -25,9 +26,10 @@ namespace VKR.Controllers
         }
         
         /// <summary>
-        /// 
+        /// Получить все секции
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -36,9 +38,10 @@ namespace VKR.Controllers
         }
         
         /// <summary>
-        /// 
+        /// Добавление новой секции
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] SectionDto model)
         {
@@ -47,9 +50,10 @@ namespace VKR.Controllers
         }
         
         /// <summary>
-        /// 
+        /// Обновить секцию
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] SectionDto model)
         {
@@ -58,9 +62,10 @@ namespace VKR.Controllers
         }
         
         /// <summary>
-        /// 
+        /// Удалить секцию
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [Route("{id:guid}")]
         [HttpDelete]
         public async Task<IActionResult> Delete([FromRoute] Guid id)

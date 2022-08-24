@@ -25,12 +25,12 @@ namespace VKR.Domain.Entities
         /// <summary>
         /// Идентификатор пользователя (автора комментария) 
         /// </summary>
-        public Guid UserId { get; set; }
+        public Guid UserProfileId { get; set; }
         
         /// <summary>
         /// Пользователь (автор комментария)
         /// </summary>
-        public virtual User User { get; set; }
+        public virtual UserProfile User { get; set; }
         
         /// <summary>
         /// Идентификатор задачи

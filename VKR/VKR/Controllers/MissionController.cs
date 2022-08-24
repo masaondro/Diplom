@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using VKR.AppServices.Services;
@@ -28,6 +29,7 @@ namespace VKR.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -39,6 +41,7 @@ namespace VKR.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] MissionDto model)
         {
@@ -50,6 +53,7 @@ namespace VKR.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] MissionDto model)
         {
@@ -61,6 +65,7 @@ namespace VKR.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
         [Route("{id:guid}")]
         [HttpDelete]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
@@ -68,6 +73,34 @@ namespace VKR.Controllers
             //Guid.TryParse(id, out var postId);
             await _missionService.DeleteAsync(id);
             return Ok();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="idSection"></param>
+        /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
+        [Route("{idSection:guid}")]
+        [HttpGet]
+        public async Task<IActionResult> FindBySectionId([FromRoute] Guid idSection)
+        {
+            var result = await _missionService.FindBySectionId(idSection);
+            return Ok(result);
+        }
+        
+        /// <summary>
+        /// Получить миссию по id
+        /// </summary>
+        /// <param name="idUser"></param>
+        /// <returns></returns>
+        [EnableCors("AnotherPolicy")]
+        [Route("mission/{id:guid}")]
+        [HttpGet]
+        public async Task<IActionResult> FindById([FromRoute] Guid id)
+        {
+            var result = await _missionService.GetById(id);
+            return Ok(result);
         }
     }
 }

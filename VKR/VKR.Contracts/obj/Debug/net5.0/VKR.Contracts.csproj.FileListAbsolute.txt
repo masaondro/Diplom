@@ -10,3 +10,6 @@ D:\Arina\VKR\VKR\VKR.Contracts\obj\Debug\net5.0\VKR.Contracts.csproj.CoreCompile
 D:\Arina\VKR\VKR\VKR.Contracts\obj\Debug\net5.0\VKR.Contracts.dll
 D:\Arina\VKR\VKR\VKR.Contracts\obj\Debug\net5.0\ref\VKR.Contracts.dll
 D:\Arina\VKR\VKR\VKR.Contracts\obj\Debug\net5.0\VKR.Contracts.pdb
+D:\Arina\VKR\VKR\VKR.Contracts\bin\Debug\net5.0\VKR.Domain.dll
+D:\Arina\VKR\VKR\VKR.Contracts\bin\Debug\net5.0\VKR.Domain.pdb
+D:\Arina\VKR\VKR\VKR.Contracts\obj\Debug\net5.0\VKR.Contracts.csproj.CopyComplete

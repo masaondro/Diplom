@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VKR.Domain.Entities
 {
     /// <summary>
     /// Модель пользователя
     /// </summary>
-    public class User
+    public class UserProfile
     {
         /// <summary>
         /// Идентификатор пользователя
@@ -14,19 +15,9 @@ namespace VKR.Domain.Entities
         public Guid Id { get; set; }
         
         /// <summary>
-        /// ФИО пользователя
+        /// Данные аккаунта
         /// </summary>
-        public string FIO { get; set; }
-        
-        /// <summary>
-        /// Email пользователя
-        /// </summary>
-        public string Email { get; set; }
-        
-        /// <summary>
-        /// Пароль пользователя
-        /// </summary>
-        public string Password { get; set; }
+        public virtual ApplicationUser User { get; set; }
         
         /// <summary>
         /// Общий рейтинг
@@ -36,11 +27,11 @@ namespace VKR.Domain.Entities
         /// <summary>
         /// Решенные задачи
         /// </summary>
-        public virtual ICollection<Mission> Mission { get; set; }
+        public virtual ICollection<UserProfileMission> UserProfileMission { get; set; }
         
         /// <summary>
         /// Разделы, пройденные пользователем
         /// </summary>
-        public virtual ICollection<Section> Section { get; set; }
+        public virtual ICollection<UserProfileSection> UserProfileSection { get; set; }
     }
 }
